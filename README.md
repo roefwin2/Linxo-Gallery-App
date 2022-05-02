@@ -10,7 +10,7 @@ J'ai testé l'utilisation du jetpackCompose pour m'exercer et surtout je pense q
 * Dependancy injection pour créer nos modules network
 * Utilisation de coroutine combiné au flow afin d'avoir la possiblité de compute dans le futur des data sur different thread
 * Moshi préféré à GSON car plus stable dans la gestion des élements nulls + plus adatpé au Kotlin
-* Utilisation de Usecase renformant tout la busniess logic de notre application 
+* Utilisation de Usecase renformant toute la busniess logic de notre application 
 * MVVM + Clean architecture
 
 #Problèmes non traités mais identifiés
