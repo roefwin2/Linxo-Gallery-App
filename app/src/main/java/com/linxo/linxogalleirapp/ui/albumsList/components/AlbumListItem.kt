@@ -34,7 +34,7 @@ fun AlbumListItem(
         Text(
             text = album.albumTitle,
             style = MaterialTheme.typography.body1,
-            overflow = TextOverflow.Ellipsis
+            overflow = TextOverflow.Clip
         )
         Text(
             text = album.userName,
@@ -42,7 +42,6 @@ fun AlbumListItem(
             fontStyle = FontStyle.Italic,
             textAlign = TextAlign.End,
             style = MaterialTheme.typography.body2,
-            modifier = Modifier.align(Alignment.CenterVertically)
         )
     }
 }
